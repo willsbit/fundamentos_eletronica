@@ -1,0 +1,230 @@
+{
+    "version": "0.1",
+    "tikzSettings": {},
+    "components": [
+        {
+            "type": "path",
+            "points": [
+                {
+                    "x": 103.937,
+                    "y": -359.055
+                },
+                {
+                    "x": 103.937,
+                    "y": -283.464
+                }
+            ],
+            "label": {
+                "value": "12~\\text{V}",
+                "otherSide": true
+            },
+            "id": "american voltage source",
+            "scale": {
+                "x": 0.85,
+                "y": 0.85
+            }
+        },
+        {
+            "type": "wire",
+            "points": [
+                {
+                    "x": 236.22,
+                    "y": -283.465
+                },
+                {
+                    "x": 236.22,
+                    "y": -283.464
+                }
+            ],
+            "stroke": {
+                "width": "0.4pt"
+            },
+            "directions": [
+                "|-"
+            ]
+        },
+        {
+            "type": "path",
+            "points": [
+                {
+                    "x": 151.181,
+                    "y": -359.055
+                },
+                {
+                    "x": 151.181,
+                    "y": -283.465
+                }
+            ],
+            "label": {
+                "value": "R_1",
+                "distance": "0.04cm"
+            },
+            "id": "american resistor",
+            "scale": {
+                "x": 0.8,
+                "y": 0.8
+            }
+        },
+        {
+            "type": "path",
+            "points": [
+                {
+                    "x": 198.425,
+                    "y": -359.055
+                },
+                {
+                    "x": 198.425,
+                    "y": -283.465
+                }
+            ],
+            "label": {
+                "value": "R_2",
+                "distance": "0.04cm"
+            },
+            "id": "american resistor",
+            "scale": {
+                "x": 0.8,
+                "y": 0.8
+            }
+        },
+        {
+            "type": "path",
+            "points": [
+                {
+                    "x": 245.669,
+                    "y": -359.055
+                },
+                {
+                    "x": 245.669,
+                    "y": -283.465
+                }
+            ],
+            "label": {
+                "value": "R_3",
+                "distance": "0.04cm"
+            },
+            "id": "american resistor",
+            "scale": {
+                "x": 0.8,
+                "y": 0.8
+            }
+        },
+        {
+            "type": "path",
+            "points": [
+                {
+                    "x": 292.913,
+                    "y": -359.055
+                },
+                {
+                    "x": 292.913,
+                    "y": -283.465
+                }
+            ],
+            "label": {
+                "value": "R_4",
+                "distance": "0.04cm"
+            },
+            "id": "american resistor",
+            "scale": {
+                "x": 0.8,
+                "y": 0.8
+            }
+        },
+        {
+            "type": "wire",
+            "points": [
+                {
+                    "x": 151.181,
+                    "y": -359.055
+                },
+                {
+                    "x": 103.937,
+                    "y": -359.055
+                }
+            ],
+            "stroke": {
+                "width": "0.4pt"
+            },
+            "directions": [
+                "-|"
+            ]
+        },
+        {
+            "type": "wire",
+            "points": [
+                {
+                    "x": 151.181,
+                    "y": -359.055
+                },
+                {
+                    "x": 198.425,
+                    "y": -359.055
+                }
+            ],
+            "stroke": {
+                "width": "0.4pt"
+            },
+            "directions": [
+                "-|"
+            ]
+        },
+        {
+            "type": "wire",
+            "points": [
+                {
+                    "x": 245.669,
+                    "y": -359.055
+                },
+                {
+                    "x": 198.425,
+                    "y": -359.055
+                }
+            ],
+            "stroke": {
+                "width": "0.4pt"
+            },
+            "directions": [
+                "-|"
+            ]
+        },
+        {
+            "type": "wire",
+            "points": [
+                {
+                    "x": 245.669,
+                    "y": -359.055
+                },
+                {
+                    "x": 292.913,
+                    "y": -359.055
+                }
+            ],
+            "stroke": {
+                "width": "0.4pt"
+            },
+            "directions": [
+                "-|"
+            ]
+        },
+        {
+            "type": "wire",
+            "points": [
+                {
+                    "x": 292.913,
+                    "y": -283.465
+                },
+                {
+                    "x": 103.937,
+                    "y": -283.465
+                }
+            ],
+            "stroke": {
+                "width": "0.4pt"
+            },
+            "directions": [
+                "|-"
+            ]
+        }
+    ]
+}

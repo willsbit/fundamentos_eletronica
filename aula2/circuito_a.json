@@ -1,0 +1,175 @@
+{
+    "version": "0.1",
+    "tikzSettings": {},
+    "components": [
+        {
+            "type": "path",
+            "points": [
+                {
+                    "x": 94.488,
+                    "y": -359.055
+                },
+                {
+                    "x": 94.488,
+                    "y": -283.464
+                }
+            ],
+            "label": {
+                "value": "12~\\text{V}",
+                "otherSide": true
+            },
+            "id": "american voltage source",
+            "scale": {
+                "x": 0.85,
+                "y": 0.85
+            }
+        },
+        {
+            "type": "wire",
+            "points": [
+                {
+                    "x": 94.488,
+                    "y": -283.464
+                },
+                {
+                    "x": 236.22,
+                    "y": -283.464
+                }
+            ],
+            "stroke": {
+                "width": "0.4pt"
+            },
+            "directions": [
+                "-|"
+            ]
+        },
+        {
+            "type": "wire",
+            "points": [
+                {
+                    "x": 302.362,
+                    "y": -283.464
+                },
+                {
+                    "x": 236.22,
+                    "y": -283.464
+                }
+            ],
+            "stroke": {
+                "width": "0.4pt"
+            },
+            "directions": [
+                "-|"
+            ]
+        },
+        {
+            "type": "path",
+            "points": [
+                {
+                    "x": 94.488,
+                    "y": -359.055
+                },
+                {
+                    "x": 160.63,
+                    "y": -359.055
+                }
+            ],
+            "label": {
+                "value": "R_1"
+            },
+            "id": "american resistor",
+            "scale": {
+                "x": 0.8,
+                "y": 0.8
+            }
+        },
+        {
+            "type": "path",
+            "points": [
+                {
+                    "x": 160.63,
+                    "y": -359.055
+                },
+                {
+                    "x": 226.772,
+                    "y": -359.055
+                }
+            ],
+            "label": {
+                "value": "R_2",
+                "distance": "0.16cm"
+            },
+            "id": "american resistor",
+            "scale": {
+                "x": 0.8,
+                "y": 0.8
+            }
+        },
+        {
+            "type": "path",
+            "points": [
+                {
+                    "x": 226.772,
+                    "y": -359.055
+                },
+                {
+                    "x": 292.914,
+                    "y": -359.055
+                }
+            ],
+            "label": {
+                "value": "R_3"
+            },
+            "id": "american resistor",
+            "scale": {
+                "x": 0.8,
+                "y": 0.8
+            }
+        },
+        {
+            "type": "path",
+            "points": [
+                {
+                    "x": 292.913,
+                    "y": -359.055
+                },
+                {
+                    "x": 359.055,
+                    "y": -359.055
+                }
+            ],
+            "label": {
+                "value": "R_4"
+            },
+            "id": "american resistor",
+            "scale": {
+                "x": 0.8,
+                "y": 0.8
+            }
+        },
+        {
+            "type": "wire",
+            "points": [
+                {
+                    "x": 359.055,
+                    "y": -359.055
+                },
+                {
+                    "x": 359.055,
+                    "y": -283.464
+                },
+                {
+                    "x": 302.362,
+                    "y": -283.464
+                }
+            ],
+            "stroke": {
+                "width": "0.4pt"
+            },
+            "directions": [
+                "-|",
+                "-|"
+            ]
+        }
+    ]
+}
