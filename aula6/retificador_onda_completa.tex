@@ -1,0 +1,23 @@
+\begin{tikzpicture}
+    % Shared bounds keep all four drawings at the same scale.
+    \path[use as bounding box] (-1.6, -0.5) rectangle (7.6, 4.8);
+    \draw (0, 0) to[sinusoidal voltage source,
+        l={\shortstack{$20\ \si{\volt}$\\$60\ \si{\hertz}$}},
+        v_>={$V_{\mathrm{in}}$},
+        voltage/distance from node=0.3, voltage/bump b=2.2] (0, 4);
+
+    \draw (0, 4) -- (6, 4);
+    \draw (0, 0) -- (6, 0);
+    \draw (2.5, 2) to[empty diode, l_={$\mathrm{IN4148}$}] (2.5, 4);
+    \draw (6, 4) to[empty diode, l={$\mathrm{IN4148}$}] (6, 2);
+    \draw (2.5, 2) to[empty diode, l_={$\mathrm{IN4148}$}] (2.5, 0);
+    \draw (6, 0) to[empty diode, l_={$\mathrm{IN4148}$}] (6, 2);
+    \draw (6, 2) to[american resistor, l_={$10\ \si{\kilo\ohm}$},
+        v^<={$V_{\mathrm{out}}$},
+        voltage/distance from node=0.4, voltage/bump b=2.1] (2.5, 2);
+
+    \node[circ] at (2.5, 4) {};
+    \node[circ] at (2.5, 0) {};
+    \node[circ] at (2.5, 2) {};
+    \node[circ] at (6, 2) {};
+\end{tikzpicture}

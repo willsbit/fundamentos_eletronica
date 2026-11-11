@@ -1,0 +1,40 @@
+% Preamble: \usepackage{circuitikz,siunitx,subcaption}
+% Include from the repository root with \input{aula6/circuitos}.
+\begin{figure}[htbp]
+    \centering
+    \captionsetup[subfigure]{labelformat=simple, labelsep=space}
+    \renewcommand{\thesubfigure}{\alph{subfigure})}
+
+    \begin{minipage}{0.8\linewidth}
+    \centering
+    \begin{subfigure}[t]{0.48\linewidth}
+        \centering
+        \resizebox{\linewidth}{!}{\input{aula6/retificador_meia_onda}}
+        \caption{Retificador de meia onda.}
+        \label{circ:retificador-meia-onda}
+    \end{subfigure}\hfill%
+    \begin{subfigure}[t]{0.48\linewidth}
+        \centering
+        \resizebox{\linewidth}{!}{\input{aula6/retificador_onda_completa}}
+        \caption{Retificador de onda completa.}
+        \label{circ:retificador-onda-completa}
+    \end{subfigure}
+
+    \bigskip
+    \begin{subfigure}[t]{0.48\linewidth}
+        \centering
+        \resizebox{\linewidth}{!}{\input{aula6/ceifador_serie}}
+        \caption{Ceifador em série.}
+        \label{circ:ceifador-serie}
+    \end{subfigure}\hfill%
+    \begin{subfigure}[t]{0.48\linewidth}
+        \centering
+        \resizebox{\linewidth}{!}{\input{aula6/ceifador_paralelo}}
+        \caption{Ceifador em paralelo.}
+        \label{circ:ceifador-paralelo}
+    \end{subfigure}
+    \end{minipage}
+
+    \caption{Circuitos retificadores e ceifadores.}
+    \label{fig:circuitos-aula6}
+\end{figure}

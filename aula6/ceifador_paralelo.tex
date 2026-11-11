@@ -1,0 +1,16 @@
+\begin{tikzpicture}
+    % Shared bounds keep all four drawings at the same scale.
+    \path[use as bounding box] (-1.6, -0.5) rectangle (7.6, 4.8);
+    \draw (0, 0) to[sinusoidal voltage source,
+        l={\shortstack{$20\ \si{\volt}$\\$60\ \si{\hertz}$}},
+        v_>={$V_{\mathrm{in}}$},
+        voltage/distance from node=0.3, voltage/bump b=2.2] (0, 4);
+
+    \draw (0, 4) to[american resistor, l={$10\ \si{\kilo\ohm}$}] (6, 4);
+    \draw (6, 2) to[empty diode, l={$\mathrm{IN4148}$}] (6, 4);
+    \draw (6, 2) to[american voltage source, l_={$V_{\mathrm{CC}}$}] (6, 0);
+    % Offset the voltage arrow from the wire and inset both ends from the nodes.
+    \draw[-latex] (6.5, 0.4) .. controls (7, 1.2) and (7, 2.8) .. (6.5, 3.6)
+        node[midway, right] {$V_{\mathrm{out}}$};
+    \draw (6, 0) -- (0, 0);
+\end{tikzpicture}

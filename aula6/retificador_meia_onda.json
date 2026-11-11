@@ -1,0 +1,118 @@
+{
+    "version": "0.1",
+    "tikzSettings": {},
+    "components": [
+        {
+            "type": "path",
+            "points": [
+                {
+                    "x": 188.976,
+                    "y": -302.362
+                },
+                {
+                    "x": 188.976,
+                    "y": -377.953
+                }
+            ],
+            "label": {
+                "value": "20~\\text{V}"
+            },
+            "voltage": {
+                "label": "V_\\text{in}",
+                "bump": 2.2,
+                "dist": 0.3,
+                "dir": ">",
+                "pos": "_"
+            },
+            "id": "sinusoidal voltage source"
+        },
+        {
+            "type": "path",
+            "points": [
+                {
+                    "x": 188.976,
+                    "y": -377.953
+                },
+                {
+                    "x": 340.157,
+                    "y": -377.953
+                }
+            ],
+            "label": {
+                "value": "\\text{IN4148}",
+                "otherSide": true
+            },
+            "id": "empty diode",
+            "scale": {
+                "x": 0.8,
+                "y": 0.8
+            }
+        },
+        {
+            "type": "path",
+            "points": [
+                {
+                    "x": 340.157,
+                    "y": -377.953
+                },
+                {
+                    "x": 340.157,
+                    "y": -302.362
+                }
+            ],
+            "label": {
+                "value": "10~\\text{k}\\Omega",
+                "otherSide": true
+            },
+            "voltage": {
+                "label": "V_\\text{out}",
+                "bump": 2.1,
+                "dist": 0.4,
+                "dir": "<",
+                "pos": "^"
+            },
+            "id": "american resistor",
+            "scale": {
+                "x": 0.8,
+                "y": 0.8
+            }
+        },
+        {
+            "type": "wire",
+            "points": [
+                {
+                    "x": 340.157,
+                    "y": -302.362
+                },
+                {
+                    "x": 188.976,
+                    "y": -302.362
+                }
+            ],
+            "stroke": {
+                "width": "0.4pt"
+            },
+            "directions": [
+                null
+            ]
+        },
+        {
+            "type": "rect",
+            "position": {
+                "x": 146.457,
+                "y": -330.709
+            },
+            "stroke": {
+                "opacity": 0
+            },
+            "size": {
+                "x": 28.346,
+                "y": 18.898
+            },
+            "text": {
+                "text": "$60~\\text{Hz}$",
+                "showPlaceholderText": true
+            }
+        }
+    ]
+}
